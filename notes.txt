@@ -1,0 +1,78 @@
+KEYS  NOTES ON DATA STRUCTURE AND ALGORITHM:
+
+Which working with a data structure that has two references(head and tail) or (first and last):
+
+	PUSH/UNSHIFT METHOD :
+		 ✔️Checks for:
+				🟢	Length of 0 or Length more than 0
+
+	POP/SHIFT METHOD:
+		✔️Checks for:
+				🟢	Lenth of 0 or Length of 1 or Length more than one.
+
+	REMOVE/INSERT METHOD:
+		✔️Checks for:
+				🟢	Index of 0 and calls(shift or unshift).
+				🟢	Index less than 0 or Index greater than (greater than or equal to for remove) and returns false
+				🟢	Index equal to the length(or length  - 1 for remove) of the list and calls (pop or push)
+				🟢	Index not within the boundary conditions specified above
+
+
+Which working with a data structure that has one references(head) or (first) or (top):
+
+	PUSH/UNSHIFT METHOD :
+		 ✔️Checks for:
+				🟢	Length of 0 or Length more than 0
+
+	POP/SHIFT METHOD:
+		✔️Checks for:
+				🟢	Length of 0 or Length more than 0.
+
+
+TERMINOLOGIESS USED WHILE WORKING WITH THE BINARY TREE DATA STRUCTURE
+	1️⃣Full Tree:
+			In a full tree every item either points to 2 nodes or 0 nodes
+			A full tree is always complete but may not be perfect.
+												🟢 ⬅️ PARENT
+											↙️		↘️
+						CHILD	➡️ 🟢			 🟢 ⬅️ CHILD
+									↙️		↘️
+								🟢			🟢								
+	2️⃣Perfect Tree:
+			In a perfect tree every line that has item in it is completely feeled all the way cross.
+			A perfect tree is always full and complete.
+												🟢
+											↙️		↘️
+									🟢					🟢
+								↙️		↘️			↙️		↘️
+							🟢			🟢	🟢			🟢
+	3️⃣Complete Tree:
+			A complete tree may not be perfect or/and full.
+												🟢
+											↙️		↘️
+									🟢					🟢
+								↙️		↘️			↙️		↘️
+							🟢			🟢	🟢			🟢
+						↙️
+					🟢
+	4️⃣Invalid Tree:
+			When two parents have one child in common, the tree is said to be invalid.
+									🟢					🟢
+										 ↘️		 		↙️
+												🟢
+	5️⃣A leaf:
+			A node without any children is called a leaf.
+
+													
+
+
+
+
+
+
+
+
+
+
+
+
